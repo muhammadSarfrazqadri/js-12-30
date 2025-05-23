@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #ffc600;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+.instructions {
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.key-sequence {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    min-height: 2rem;
+    margin: 1rem 0;
+    color: #d63384;
+    font-weight: bold;
+}
